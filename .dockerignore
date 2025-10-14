@@ -1,0 +1,30 @@
+# Archivos de Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# Archivos de IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Git
+.git/
+.gitignore
+
+# README
+README.md
