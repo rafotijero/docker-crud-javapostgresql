@@ -1,59 +1,17 @@
 <!DOCTYPE html>
-<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Gestión de Empleados</title>
+    <title>Sistema de Empleados</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <i class="bi bi-person-badge"></i> Sistema de Empleados
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/empleados">Empleados</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1 class="display-3 mb-4">
-                    <i class="bi bi-person-badge text-primary"></i>
-                    Sistema de Empleados
-                </h1>
-                <p class="lead text-muted mb-5">
-                    Gestión simple y eficiente de empleados
-                </p>
-                <a href="/empleados" class="btn btn-primary btn-lg">
-                    <i class="bi bi-list-ul"></i> Ver Empleados
-                </a>
-            </div>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="text-center">
+            <h1 class="mb-4">Sistema de Empleados</h1>
+            <a href="/empleados" class="btn btn-primary btn-lg">Ir a Empleados</a>
         </div>
     </div>
-
-    <footer class="bg-light mt-5 py-4">
-        <div class="container text-center">
-            <p class="text-muted mb-0">
-                Sistema de Gestión de Empleados &copy; 2024
-            </p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
